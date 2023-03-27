@@ -1,0 +1,102 @@
+.answer-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  max-width: 1250px;
+  max-height: 588px;
+  margin: 0 auto;
+  padding-top: 108px;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.question-block {
+  flex: 1 1 502px;
+  max-width: 539px;
+  padding-right: 103px;
+}
+
+.question-suggestion {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.question-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 64px;
+}
+
+.button-lorn {
+  font-weight: 700;
+  font-size: 18px;
+  color: #FF2D2D;
+  ;
+  box-sizing: border-box;
+  width: 227px;
+  height: 55px;
+  left: 163px;
+  top: 1095px;
+  background-color: rgba(0, 0, 0, 0.0001);
+  border: 2px solid #FF0000;
+}
+
+.answer-list {
+  display: flex;
+  flex: 1 1 288px;
+  flex-wrap: wrap;
+  max-width: 610px;
+  max-height: 485px;
+}
+
+.answer-point {
+  flex: 1 1 288px;
+  width: 288px;
+  margin-bottom: 50px;
+  margin-left: 16px;
+}
+
+.answer-suggestion {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.answer-suggestion::before {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-bottom: 22px;
+}
+
+.answer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.service-heading-manage::before {
+  content: url('../images/shape.png');
+}
+
+.service-heading-logo::before {
+  content: url('../images/diamond.png')
+}
+
+.service-heading-anima::before {
+  content: url('../images/car.png')
+}
+
+.service-heading-ux::before {
+  content: url('../images/pencle.png')
+}
