@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   justify-content: start;
   max-width: 1250px;
-  max-height: 588px;
   margin: 0 auto;
   padding-top: 108px;
   border-bottom: 1px solid #ECECEC;
@@ -51,7 +50,6 @@
   flex: 1 1 288px;
   flex-wrap: wrap;
   max-width: 610px;
-  max-height: 485px;
 }
 
 .answer-point {
