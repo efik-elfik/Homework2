@@ -1,0 +1,164 @@
+.feedback-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+}
+
+.feedback {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 752px;
+  padding-top: 104px;
+  padding-bottom: 107px;
+}
+
+.feedback-header {
+  margin-bottom: 45px;
+}
+
+.feedback-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+  padding-left: 0;
+}
+
+.feedback-text {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  line-height: 28px;
+  max-width: 750px;
+  margin-bottom: 58px;
+}
+
+.feedback-line {
+  margin-left: 0;
+}
+
+.feedback-body {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 745px;
+  margin-right: 104px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.feedback-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feedback-input {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+}
+
+.feedback-input::-webkit-input-placeholder {
+  color: #000000;
+  padding-left: 50px;
+}
+
+.feedback-input:focus::-webkit-input-placeholder {
+  color: transparent;
+  transition: 0.3s;
+}
+
+.feedback-name,
+.feedback-mail {
+  display: flex;
+  font-size: 16px;
+  width: 330px;
+  height: 68px;
+}
+
+.feedback-message {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  resize: none;
+  color: #000000;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  min-width: 745px;
+  height: 252px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+
+.feedback-message::-webkit-input-placeholder {
+  color: #000000;
+  padding-left: 50px;
+}
+
+.feedback-message:focus::-webkit-input-placeholder {
+  color: transparent;
+  transition: 0.3s;
+}
+
+.feedback-button {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 750px;
+  height: 74px;
+  background-color: #FF2D2D;
+  border: none;
+  border-radius: 5px;
+}
+
+.feedback-button:hover {
+  box-shadow: inset 0em 0em 0em 10em rgba(0, 0, 0, 0.3);
+}
+
+.contacts {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #2D2D2D;
+  padding: 126px 52px 126px 78px;
+  max-height: 486px;
+  color: #FFFFFF;
+  margin-bottom: 107px;
+  margin-left: 104px;
+}
+
+.contacts-heading {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 34px;
+}
+
+.contacts-address {
+  line-height: 28px;
+}
+
+.contacts-line {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  line-height: 34px;
+  margin-bottom: 27px;
+}
