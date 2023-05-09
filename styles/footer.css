@@ -1,0 +1,37 @@
+.footer {
+  background-color: #313030;
+  height: 120px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.footer-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #B8B8B8;
+}
+
+.footer_social-media {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.footer_social-icon {
+  margin-right: 18px;
+}
+
+.footer-link:hover {
+  box-shadow: inset 0em 0em 0em 10em rgba(0, 0, 0, 0.3);
+}
+
+.footer-img:hover {
+  opacity: 0.6;
+}
